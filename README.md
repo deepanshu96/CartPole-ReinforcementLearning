@@ -13,7 +13,7 @@ CartPole balancing problem is considered one of the benchmark problems in reinfo
 * Next I reduced the observation state space by first discretizing the observation into integers into a number of buckets. The components of the observation state were x, x_dot, theta, theta_dot where x and x_dot were the position and velocity and theta and theta_dot were the angle of pole and angle rate of change. For the problem I removed the x and x_dot component, thus the solution converged faster than the previous approach. 
 
 
-* After the above modifications the solution was still not being obtained and then I decided to use adaptive learning and exploration rate in which they were decreased with passage of time using modify_epsilon() and modify_alpha functions in the program code. This made a huge difference and the algorithm was able to learn in 150 to 200 episodes. Although the cart was going out of the bounds but the progress was so slow that it completed 200 time steps before it. 
+* After the above modifications the solution was still not being obtained and then I decided to use adaptive learning and exploration rate in which they were decreased with passage of time using modify_epsilon() and modify_alpha() functions in the program code. This made a huge difference and the algorithm was able to learn in 150 to 200 episodes. Although the cart was going out of the bounds but the progress was so slow that it completed 200 time steps before it. 
 
 ### Results
 
