@@ -26,4 +26,4 @@ CartPole balancing problem is considered one of the benchmark problems in reinfo
 
 * Q-learning algorithm is able to complete the given task in about 150 to 200 generations or episodes in which it completes more the 200 time steps quite easily without going out of the bounds of the environment. 
 
-<img src = "https://github.com/deepanshu96/CartPole-ReinforcementLearning/blob/master/ext/Screen%20Shot%202018-08-02%20at%209.11.39%20PM.png">
+<img src = "https://github.com/deepanshu96/CartPole-ReinforcementLearning/blob/master/ext/Screen%20Shot%202018-08-02%20at%209.11.39%20PM.png" width = 600>
