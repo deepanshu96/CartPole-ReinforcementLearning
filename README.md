@@ -13,3 +13,5 @@ CartPole balancing problem is considered one of the benchmark problems in reinfo
 
 * After the above modifications the solution was still not being obtained and then I decided to use adaptive learning and exploration rate in which they were decreased with passage of time using modify_epsilon() and modify_alpha functions in the program code. This made a huge difference and the algorithm was able to learn in 150 to 200 episodes. Although the cart was going out of the bounds but the progress was so slow that it completed 200 time steps before it. 
 
+### Results
+
