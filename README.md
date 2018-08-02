@@ -20,3 +20,6 @@ CartPole balancing problem is considered one of the benchmark problems in reinfo
 
 * #### 125 Generations
 <img src = "https://github.com/deepanshu96/CartPole-ReinforcementLearning/blob/master/ext/125gen.gif" width = "500">
+
+* #### 200 Generations
+<img src = "https://github.com/deepanshu96/CartPole-ReinforcementLearning/blob/master/ext/200gen.gif" width = "500">
